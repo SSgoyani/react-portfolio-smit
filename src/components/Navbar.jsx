@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo123.png';
+import logo from '../assets/logo12.png';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
@@ -9,10 +9,10 @@ function Navbar() {
   return (
     <nav className='mb-20 flex items-center justify-between py-6 h-20'>
         <div className='flex flex-shrink-0 items-center w-20'>
-          <img height={400} width={400} src={logo} alt='logo'/>
+          <img className='h-10 w-50' src={logo} alt='logo'/>
         </div>
         <div className='m-8 flex item-center justify-center gap-4 text-2xl'>
-        <a href='https://github.com/SSgoyani' target='_blank'>
+        <a href='https://github.com/SSgoyni' target='_blank'>
           <FaGithub />
         </a>
         <a href='https://www.instagram.com/_smit_goyani_/' target='_blank'>
