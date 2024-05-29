@@ -1,5 +1,4 @@
-import React from 'react'
-import {EXPERIENCES} from '../constants';
+import React from 'react';
 import {motion} from 'framer-motion';
 
 const Experience = () => {
@@ -20,11 +19,13 @@ const Experience = () => {
                         •Successfully executed shopify tasks of liquid and javascript to meet client requirements.<br />
                         •Implemented theme customizations, including creating custom sections and components.
                     </p>
-                    <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>ReactJs</span>
-                    <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Html/Css</span>
-                    <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>JavaScript</span>
-                    <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Shopify</span>
-                    <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Liquid</span>
+                    <div className='flex flex-wrap'>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>ReactJs</span>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Html/Css</span>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>JavaScript</span>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Shopify</span>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Liquid</span>
+                    </div>
                 </motion.div>
             </div>
         </div>
