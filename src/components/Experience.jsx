@@ -8,10 +8,10 @@ const Experience = () => {
         <div>
             <div className='mb-8 flex flex-wrap lg:justify-center'>
                 <div className='w-full lg:w-1/4'>
-                    <motion.p whileInView={{opacity: 1, x: 0}} initial={{opacity: 0, x: -100}} transition={{duration: 1}} className='mb-2 text-sm text-neutral-400'>Jan 2024 - Present</motion.p>
+                    <motion.p whileInView={{opacity: 1, x: 0}} initial={{opacity: 0, x: -100}} transition={{duration: 1}} className='mb-2 text-sm text-neutral-400'>Jan 2024 - Mar 2025</motion.p>
                 </div>
                 <motion.div whileInView={{opacity: 1, x: 0}} initial={{opacity: 0, x: 100}} transition={{duration:1}} className='w-full max-w-xl lg:w-3/4'>
-                    <h6 className='mb-2 font-semibold'>Software Engineer - 
+                    <h6 className='mb-2 font-semibold'>Software Developer - 
                         <span className='text-sm text-purple-100'> MLVeda, Ahmedabad</span>
                     </h6>
                     <p className='mb-4 text-neutral-400'>

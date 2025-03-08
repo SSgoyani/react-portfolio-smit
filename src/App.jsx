@@ -63,11 +63,11 @@ const App = () => {
             <Route path="/" element={<>
               <Hero />
               <About />
-              <Education />
-              <Languages />
-              <Technologies />
               <Experience />
+              <Education />
+              <Technologies />
               <Projects />
+              <Languages />
               <Contact />
             </>} />
             <Route path='/' element={<Navbar />} />
