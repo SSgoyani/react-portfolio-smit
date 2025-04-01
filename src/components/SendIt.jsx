@@ -71,10 +71,10 @@ function SendIt() {
         </motion.div>
         <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
           <h6 className='mb-2 font-semibold'>
-            <Link className='flex items-center gap-2' to='/projects/send-it'>
+            {/* <Link className='flex items-center gap-2' to='/projects/send-it'> */}
               SendIt
-              <IoLinkSharp />
-            </Link>
+              {/* <IoLinkSharp /> */}
+            {/* </Link> */}
           </h6>
           <p className='mb-4 text-neutral-400'>
             •A automated location based cloud media organization mobile application using Flutter.<br />

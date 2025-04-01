@@ -15,14 +15,17 @@ const Experience = () => {
                         <span className='text-sm text-purple-100'> MLVeda, Ahmedabad</span>
                     </h6>
                     <p className='mb-4 text-neutral-400'>
-                        •Designed and developed user interfaces for web applications using ReactJs.< br />•Implemented responsive designs and optimized frontend performance.<br /> 
+                        •Designed and developed user interfaces for web applications using ReactJs.< br />
+                        •Replaced a third-party application with a custom coded solution for custom add-on items, improving efficiency and reducing dependency on services.<br />
+                        •Designed and built various reusable UI components with HTML, CSS, to functionality and user experience.<br />
+                        •Optimized Shopify site performance by improving webpage loading speed enhancing user engagement, and ensuring better Core Web Vitals scores.<br />
                         •Successfully executed shopify tasks of liquid and javascript to meet client requirements.<br />
-                        •Implemented theme customizations, including creating custom sections and components.
                     </p>
                     <div className='flex flex-wrap'>
                         <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>ReactJs</span>
-                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Html/Css</span>
                         <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>JavaScript</span>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>HTML</span>
+                        <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>CSS</span>
                         <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Shopify</span>
                         <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Liquid</span>
                     </div>

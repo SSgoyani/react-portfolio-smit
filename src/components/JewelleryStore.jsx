@@ -67,10 +67,10 @@ function JewelleryStore() {
         </motion.div>
         <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
           <h6 className='mb-2 font-semibold'>
-            <Link className='flex items-center gap-2' to='/projects/jewellery-store'>
+            {/* <Link className='flex items-center gap-2' to='/projects/jewellery-store'> */}
               Jewellery Store
-              <IoLinkSharp />
-            </Link>
+              {/* <IoLinkSharp /> */}
+            {/* </Link> */}
           </h6>
           <p className='mb-4 text-neutral-400'>
             •Full Stack Online Business Management System using MERN stack with Redux and Cloudinary.<br />

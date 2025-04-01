@@ -21,7 +21,7 @@ function About() {
             <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
           </div>
           <div className='flex justify-center lg:justify-start'>
-            <a href='/cv.pdf' download="My_CV.pdf" className='mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded'>
+            <a href='/Smit-Goyani-20250322.pdf' download="smit-goyani.pdf" className='mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded'>
               Download CV
             </a>
           </div>

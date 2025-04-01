@@ -15,10 +15,10 @@ function Navbar() {
           </Link>
         </div>
         <div className='m-8 flex item-center justify-center gap-4 text-2xl'>
-        <a href='https://github.com/SSgoyni' target='_blank'>
+        <a href='https://github.com/SSgoyani' target='_blank'>
           <FaGithub />
         </a>
-        <a href='https://www.instagram.com/_smit_goyani_/' target='_blank'>
+        <a href='https://www.instagram.com/_smit.goyani_/' target='_blank'>
           <FaInstagram />
         </a>
         <a href='https://www.linkedin.com/in/smit-goyani-19216325a/' target='_blank'>
